@@ -13,7 +13,7 @@ function makeTitleOfApp()
 
     let titleOfApp = ce('a');
     titleOfApp.textContent = 'CATopalian JavaScript Cipher Generator';
-    titleOfApp.href = 'https://github.com/christopherandrewtopalian/';
+    titleOfApp.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Cipher_Generator';
     titleOfApp.target = '_blank';
     titleOfApp.style.fontSize = '17px';
     titleOfApp.style.fontWeight = 'bold';

@@ -14,7 +14,7 @@ function makeInterface()
 
     let titleText = ce("div");
     titleText.className = "titleTextStyle";
-    titleText.innerHTML = "CATopalian Cipher Generator";
+    titleText.textContent = "CATopalian Cipher Generator";
     mainDiv.append(titleText);
 
     //-//
@@ -238,7 +238,7 @@ function makeInterface()
 
     let unscrambleButton = ce("button");
     unscrambleButton.className = "unscrambleButtonStyle";
-    unscrambleButton.innerHTML = "Unscramble";
+    unscrambleButton.textContent = "Unscramble";
 
     // when left clicked
     unscrambleButton.onclick = function()
