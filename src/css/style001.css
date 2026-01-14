@@ -8,14 +8,12 @@ body
 
 textarea
 {
-    height: 65px;
-    width: 500px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 30px;
+    padding: 10px 10px;
     border-radius: 5px;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(20, 20, 20);
     font-family: arial;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
@@ -42,7 +40,7 @@ hr
     padding: 5px;
     margin: auto;
     font-family: arial;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -107,7 +105,7 @@ button:active
 /* ---- */
 
 /* Dedicated to God the Father */
-/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 */
+/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026 */
 /* https://github.com/ChristopherTopalian */
 /* https://github.com/ChristopherAndrewTopalian */
 /* https://sites.google.com/view/CollegeOfScripting */

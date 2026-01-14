@@ -7,15 +7,22 @@ function makeInterface()
     let mainDiv = ce("div");
     mainDiv.className = "mainDivStyle";
     mainDiv.style.position = 'relative';
-    mainDiv.style.width = '500px';
+    //mainDiv.style.width = '500px';
     ba(mainDiv);
 
     //-//
 
-    let titleText = ce("div");
-    titleText.className = "titleTextStyle";
-    titleText.textContent = "CATopalian Cipher Generator";
-    mainDiv.append(titleText);
+    let titleOfApp = ce('a');
+    titleOfApp.textContent = 'CATopalian JavaScript Cipher Generator';
+    titleOfApp.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Cipher_Generator';
+    titleOfApp.target = '_blank';
+    titleOfApp.style.fontSize = '17px';
+    titleOfApp.style.fontWeight = 'bold';
+    titleOfApp.style.textDecoration = 'none';
+    titleOfApp.style.color = 'rgb(170, 170, 170)';
+    titleOfApp.style.fontFamily = 'Arial';
+    titleOfApp.style.paddingTop = '2px';
+    mainDiv.append(titleOfApp);
 
     //-//
 
@@ -26,7 +33,7 @@ function makeInterface()
 
     let enterText = ce("textarea");
     enterText.id = "enterText";
-    enterText.className = "enterTextStyle";
+    //enterText.className = "enterTextStyle";
     enterText.placeholder = "Enter Text Here";
     enterText.title = "Enter Text Here";
     enterText.onchange = function()
@@ -204,7 +211,7 @@ function makeInterface()
 
     let conversionResult = ce("textarea");
     conversionResult.id = "conversionResult";
-    conversionResult.className = "conversionResultStyle";
+    //conversionResult.className = "conversionResultStyle";
     conversionResult.placeholder = "The Converted Values";
     conversionResult.setAttribute("readonly", "true");
     mainDiv.append(conversionResult);
@@ -217,7 +224,7 @@ function makeInterface()
 
     let sumResult = ce("textarea");
     sumResult.id = "sumResult";
-    sumResult.className = "sumResultStyle";
+    //sumResult.className = "sumResultStyle";
     sumResult.placeholder = "The Sum";
     sumResult.setAttribute("readonly", "true");
     mainDiv.append(sumResult);
@@ -230,14 +237,14 @@ function makeInterface()
 
     let unscrambledResult = ce("textarea");
     unscrambledResult.id = "unscrambledResult";
-    unscrambledResult.className = "unscrambledResultStyle";
+    //unscrambledResult.className = "unscrambledResultStyle";
     unscrambledResult.setAttribute("readonly", "true");
     mainDiv.append(unscrambledResult);
 
     //-//
 
     let unscrambleButton = ce("button");
-    unscrambleButton.className = "unscrambleButtonStyle";
+    //unscrambleButton.className = "unscrambleButtonStyle";
     unscrambleButton.textContent = "Unscramble";
 
     // when left clicked
@@ -251,7 +258,7 @@ function makeInterface()
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting
