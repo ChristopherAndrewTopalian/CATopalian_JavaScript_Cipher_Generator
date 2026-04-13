@@ -3,7 +3,6 @@
 function whenLoaded()
 {
     makeInterface();
-    makeTitleOfApp();
 }
 
 //----//
