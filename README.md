@@ -1,9 +1,13 @@
 # CATopalian JavaScript Cipher Generator
 A JavaScript application that can create ciphers by encoding letters as numbers.  
 
-USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Cipher_Generator/CATopalian_JavaScript_Cipher_Generator.html  
+[START APP](https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Cipher_Generator/CATopalian_JavaScript_Cipher_Generator.html)  
+
+APP LINK: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Cipher_Generator/CATopalian_JavaScript_Cipher_Generator.html  
 
 ![screenshot_001](src/media/textures/screenshots/001.PNG)  
+
+Github Link: https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Cipher_Generator
 
 ---
 
