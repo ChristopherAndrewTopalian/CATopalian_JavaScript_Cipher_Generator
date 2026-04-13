@@ -21,13 +21,18 @@ body
     color: rgb(255, 255, 255);
 }
 
+img
+{
+    cursor: pointer;
+}
+
 </style>
 
 <script src = 'src/js/1shortcuts/shortcuts.js'></script>
 
 <script>
 
-function makeAppLink()
+function makeInterface()
 {
     let theLink = 'CATopalian_JavaScript_Cipher_Generator.html';
 
@@ -50,12 +55,25 @@ function makeAppLink()
     appLink.textContent = 'Start Application';
     appLink.style.fontSize = 50 + 'px';
     appLink.style.fontWeight = 'bold';
+    appLink.style.color = 'rgb(0, 255, 255)';
+    appLink.style.textDecoration = 'none';
     mainDiv.append(appLink);
+
+    //-//
+
+    let theScreenshot = ce('img');
+    theScreenshot.src = 'src/media/textures/screenshots/001.PNG';
+    theScreenshot.onclick = function()
+    {
+        window.open(theLink);
+    };
+    theScreenshot.style.width= '200px';
+    mainDiv.append(theScreenshot);
 }
 
 function whenLoaded()
 {
-    makeAppLink();
+    makeInterface();
 }
 
 </script>
